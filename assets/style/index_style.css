@@ -1,0 +1,31 @@
+body {
+    background-image: url("../images/light-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}​,
+
+.img-card {
+    background: rgba(0, 0, 0, 0.5);
+    border: black solid 2px;
+}
+
+.box-links {
+    color: lightgray;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: lightgray;
+    padding: 20px;
+}
+.footer-links {
+    color: lightgray;
+}
+.navbar-brand, .card-title {
+    font-family: 'Lobster', cursive;
+}
+p, a {
+    font-family: 'Barlow Condensed', sans-serif; 
+}
